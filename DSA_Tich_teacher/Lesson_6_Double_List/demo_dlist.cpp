@@ -26,8 +26,4 @@ int main(){
     cout << "\nlist : "; for(auto x:L) cout << x << " ";
     L.sort();
     cout << "\nlist : "; for(auto x:L) cout << x << " ";
-
-
-
-
 }

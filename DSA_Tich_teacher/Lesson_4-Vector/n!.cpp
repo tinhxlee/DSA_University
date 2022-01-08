@@ -6,7 +6,7 @@ int main(){
     cin >> n ;
     vector <int> V(1,1) ;
     while(n > 1){
-        int nho = 0 ;
+        long long nho = 0 ;
         for(int &x:V){
             nho += x * n ;
             x = nho % 10 ;
